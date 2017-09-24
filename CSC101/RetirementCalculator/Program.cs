@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RetirementCalculator
 {
@@ -10,6 +6,19 @@ namespace RetirementCalculator
     {
         static void Main(string[] args)
         {
+            const int retirementAge = 65;
+
+            int myAge = 23;
+            int yourAge = 40;
+
+            const string message = "How many years are left until our retirement?";
+            Console.WriteLine(message);
+
+            int yearsLeftForMe  = retirementAge - myAge;
+            int yearsLeftForYou = retirementAge - yourAge;
+
+            Console.WriteLine("Years left for me: " + yearsLeftForMe);
+            Console.WriteLine("Years left for you: {0}", yearsLeftForYou);
         }
     }
 }
