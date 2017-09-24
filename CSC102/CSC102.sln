@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeParser", "CSC102\AgeParser.csproj", "{5D1E5A5D-8D43-4961-974A-F992D9332FF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeParser", "AgeParser\AgeParser.csproj", "{5D1E5A5D-8D43-4961-974A-F992D9332FF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBin", "FizzBin\FizzBin.csproj", "{2D407584-6B60-4FF9-9550-80E0A551ACB4}"
 EndProject
