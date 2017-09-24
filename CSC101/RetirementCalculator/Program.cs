@@ -5,7 +5,7 @@ namespace RetirementCalculator
     class Program
     {
         /// <summary> Calculate the number of years remaining until retirement age. </summary>
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             const int retirementAge = 65;
 
