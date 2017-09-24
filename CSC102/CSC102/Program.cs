@@ -1,15 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSC102
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Console.Write("Enter your age: ");
+            string age = Console.ReadLine();
+
+            int intAge = int.Parse(age);
+            intAge += 1;
+
+            string stringAge = intAge.ToString();
+
+            Console.WriteLine("Next year you will be {0} years old.", stringAge);
         }
     }
 }
