@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeParser", "AgeParser\AgeP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBin", "FizzBin\FizzBin.csproj", "{2D407584-6B60-4FF9-9550-80E0A551ACB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic", "Arithmetic\Arithmetic.csproj", "{BAC080DF-CD24-4915-A042-F06EAF653B94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2D407584-6B60-4FF9-9550-80E0A551ACB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D407584-6B60-4FF9-9550-80E0A551ACB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D407584-6B60-4FF9-9550-80E0A551ACB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC080DF-CD24-4915-A042-F06EAF653B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC080DF-CD24-4915-A042-F06EAF653B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC080DF-CD24-4915-A042-F06EAF653B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC080DF-CD24-4915-A042-F06EAF653B94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
